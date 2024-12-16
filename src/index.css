@@ -1,0 +1,76 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+/* icrreae and drcrease */
+.container {
+  padding: 30px;
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+  text-transform: uppercase;
+  font-size: 15px;
+  letter-spacing: 2px;
+  font-weight: 500;
+  color: rgb(28, 29, 24);
+  font-size: 1.5rem;
+  margin-bottom: 30px;
+}
+ /* timing css */
+ button{
+  padding: 12px 20px;
+  background: rgb(153, 146, 154);
+  color: white;
+  border: 2px solid whitesmoke;
+  outline: none;
+  border-radius: 5px;
+  text-transform: uppercase;
+  cursor: pointer;
+  font-size: 25px;
+  
+  
+ }
+ .box{
+  width:100% ;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+ }
+ .Digital{ 
+  padding: 30px;
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+  text-transform: uppercase;
+  font-size: 15px;
+  letter-spacing: 2px;
+  font-weight: 500;
+  color: rgb(236, 20, 96);
+  font-size: 2rem;
+  margin-bottom: 30px;
+  
+ }
+
+ /* digital_clock */
+
+ .Box{
+  width: 280px;
+  height: 120px;
+  margin-left: 40%;
+  justify-content: center;
+  text-align: center;
+  font-size: larger;
+  background-color: rgb(19, 68, 52);
+border-radius: 7%;
+
+}
