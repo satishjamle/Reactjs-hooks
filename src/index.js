@@ -11,6 +11,7 @@ import { S_form } from './Component/S_form';
 import { LoginForm } from './Component/LoginForm';
 import { C_loginF } from './Component/C_loginF';
 import { SpreadOp } from './Component/SpreadOp';
+import { TodoList } from './Component/TodoList';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -23,7 +24,8 @@ root.render(
     {/* <S_form/> */}
     {/* <LoginForm/> */}
     {/* <C_loginF/> */}
-    <SpreadOp/>
+    {/* <SpreadOp/> */}
+    <TodoList/>
   </React.StrictMode>
 );
 
