@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import './index.css'
 
 export const C_loginF = () => {
   const [fullname, SetFullName] = useState({

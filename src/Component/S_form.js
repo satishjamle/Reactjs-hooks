@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import "./index.css";
 
 export const S_form = () => {
   const [name, SetName] = useState("");

@@ -1,90 +1,38 @@
-/* body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
-} */
-
-/* hooks file css icrreae and drcrease */
-/* .container {
-  padding: 30px;
-  text-align: center;
-  font-family: "Times New Roman", Times, serif;
-  text-transform: uppercase;
-  font-size: 15px;
-  letter-spacing: 2px;
-  font-weight: 500;
-  color: rgb(28, 29, 24);
-  font-size: 1.5rem;
-  margin-bottom: 30px;
-}
- /* timing css */
- /* button{
-  padding: 12px 20px;
-  background: rgb(153, 146, 154);
-  color: white;
-  border: 2px solid whitesmoke;
-  outline: none;
-  border-radius: 5px;
-  text-transform: uppercase;
-  cursor: pointer;
-  font-size: 25px;  
- }
- ;
- .box{
-  width:100% ;
+div {
+  width: 100%;
   height: 100vh;
+  background: purple;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
- } */ 
- /* .Digital{ 
-  padding: 30px;
+}
+h1 {
+  color: whitesmoke;
+  background: transparent;
+  text-shadow: 0 2px 2px black;
   text-align: center;
-  font-family: "Times New Roman", Times, serif;
-  text-transform: uppercase;
-  font-size: 15px;
-  letter-spacing: 2px;
-  font-weight: 500;
-  color: rgb(236, 20, 96);
-  font-size: 2rem;
-  margin-bottom: 30px;
-  
- } */
-
- /* digital_clock */
-
- /* .Box{
-  width: 280px;
-  height: 120px;
-  margin-left: 40%;
-  justify-content: center;
+}
+input {
+  width: 100%;
+  padding: 10px 20px;
+  border: none;
+  margin: 20px 0;
   text-align: center;
-  font-size: larger;
-  background-color: rgb(19, 68, 52);
-border-radius: 7%;
-
-} */
-
-/* bgchange */
-/* div{
-  width: auto;height: 900px;
-  padding: 12px 20px;
-  background: rgb(153, 146, 154);
+}
+button {
+  line-height: 24px;
+  padding: 0 20px;
+  margin-left: 50%;
+  background: purple;
   color: white;
-  border: 2px solid whitesmoke;
+  border: 1.5px solid whitesmoke;
   outline: none;
+  text-transform: uppercase;
+
   border-radius: 5px;
   text-transform: uppercase;
   cursor: pointer;
-  font-size: 25px; 
-  text-align: center;
-} */
+}
+.container {
+}
