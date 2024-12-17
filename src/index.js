@@ -8,6 +8,7 @@ import { Timing } from './Component/Timing';
 import { Digital_c } from './Component/Digital_c';
 import { Bg_change } from './Component/Bg_change';
 import { S_form } from './Component/S_form';
+import { LoginForm } from './Component/LoginForm';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -17,7 +18,8 @@ root.render(
     {/* <Timing/> */}
     {/* <Digital_c/> */}
     {/* <Bg_change/> */}
-    <S_form/>
+    {/* <S_form/> */}
+    <LoginForm/>
   </React.StrictMode>
 );
 

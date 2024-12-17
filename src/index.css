@@ -1,4 +1,4 @@
-body {
+/* body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
@@ -10,10 +10,10 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
-}
+} */
 
 /* hooks file css icrreae and drcrease */
-.container {
+/* .container {
   padding: 30px;
   text-align: center;
   font-family: "Times New Roman", Times, serif;
@@ -26,7 +26,7 @@ code {
   margin-bottom: 30px;
 }
  /* timing css */
- button{
+ /* button{
   padding: 12px 20px;
   background: rgb(153, 146, 154);
   color: white;
@@ -45,8 +45,8 @@ code {
   flex-direction: column;
   justify-content: center;
   align-items: center;
- }
- .Digital{ 
+ } */ 
+ /* .Digital{ 
   padding: 30px;
   text-align: center;
   font-family: "Times New Roman", Times, serif;
@@ -58,7 +58,7 @@ code {
   font-size: 2rem;
   margin-bottom: 30px;
   
- }
+ } */
 
  /* digital_clock */
 
