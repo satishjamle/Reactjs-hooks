@@ -18,7 +18,7 @@
 
 .center_div {
   width: 25%;
-  height: 80vh;
+  height: 70vh;
   background-color: #f4f4f4;
   box-shadow: 5px 5px 25px -5px rgba(0, 0, 0, 0.5);
   border-radius: 15px;
@@ -70,7 +70,9 @@ ol {
 }
 
 ol li {
-  padding-left: 0px;
+  /* padding-top: 0px; */
+  margin-left: 20%;
+  margin-top: -10%;
   text-align: left;
   font-size: 20px;
   font-weight: 500;
@@ -98,10 +100,11 @@ ol li {
   border-radius: 50%;
   margin: 0 15px 0 35px;
   color: aliceblue;
-  box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
+  box-shadow: 5px 5px 15px -5px rgba(12, 12, 12, 0.3);
 }
 
 .todo_style .fa-times:hover {
+
   background-color: crimson;
 }
 
