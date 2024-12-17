@@ -7,17 +7,20 @@ export const HookUser = () => {
     setCount(count + 1);
   };
 
-  const DecNum=()=>{
-    setCount(count-1)
-  }
+  const DecNum = () => {
+    setCount(count - 1);
+  };
   return (
-    
     <>
-    <div className="container">
-      <button style={{fontSize:'2rem', color:'green'}} onClick={IncNum}>Inc_Num </button>
-      <h1>{count}</h1>
+      <div className="container">
+        <button style={{ fontSize: "2rem", color: "green" }} onClick={IncNum}>
+          Inc_Num{" "}
+        </button>
+        <h1>{count}</h1>
 
-      <button style={{fontSize:'2rem', color:'red' }} onClick={DecNum}>Dec_Num </button>
+        <button style={{ fontSize: "2rem", color: "red" }} onClick={DecNum}>
+          Dec_Num{" "}
+        </button>
       </div>
     </>
   );
