@@ -9,6 +9,7 @@ import { Digital_c } from './Component/Digital_c';
 import { Bg_change } from './Component/Bg_change';
 import { S_form } from './Component/S_form';
 import { LoginForm } from './Component/LoginForm';
+import { C_loginF } from './Component/C_loginF';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -19,7 +20,8 @@ root.render(
     {/* <Digital_c/> */}
     {/* <Bg_change/> */}
     {/* <S_form/> */}
-    <LoginForm/>
+    {/* <LoginForm/> */}
+    <C_loginF/>
   </React.StrictMode>
 );
 
