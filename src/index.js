@@ -17,6 +17,7 @@ import { C_API } from './Component/CONTEXT_API/C_API';
 import { Useapi } from './Component/UseContext/Useapi';
 import { UseEffectHook } from './Component/UseEffectHook';
 import { Hooks_challenge } from './Component/Hooks_challenge';
+import { Pokemon } from './Component/Pokemon';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -35,7 +36,8 @@ root.render(
     {/* <C_API/> */}
     {/* <Useapi/> */}
     {/* <UseEffectHook/> */}
-    <Hooks_challenge/>
+    {/* <Hooks_challenge/> */}
+    <Pokemon/>
   </React.StrictMode>
 );
 
