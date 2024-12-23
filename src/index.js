@@ -13,6 +13,8 @@ import { C_loginF } from './Component/C_loginF';
 import { SpreadOp } from './Component/SpreadOp';
 import { TodoList } from './Component/TodoList';
 import Inc_Dec from './Component/Inc_Dec';
+import { C_API } from './Component/CONTEXT_API/C_API';
+import { Useapi } from './Component/UseContext/Useapi';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -27,7 +29,9 @@ root.render(
     {/* <C_loginF/> */}
     {/* <SpreadOp/> */}
     {/* <TodoList/> */}
-    <Inc_Dec/>
+    {/* <Inc_Dec/> */}
+    {/* <C_API/> */}
+    <Useapi/>
   </React.StrictMode>
 );
 
