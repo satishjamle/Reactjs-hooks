@@ -15,6 +15,7 @@ import { TodoList } from './Component/TodoList';
 import Inc_Dec from './Component/Inc_Dec';
 import { C_API } from './Component/CONTEXT_API/C_API';
 import { Useapi } from './Component/UseContext/Useapi';
+import { UseEffectHook } from './Component/UseEffectHook';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -31,7 +32,8 @@ root.render(
     {/* <TodoList/> */}
     {/* <Inc_Dec/> */}
     {/* <C_API/> */}
-    <Useapi/>
+    {/* <Useapi/> */}
+    <UseEffectHook/>
   </React.StrictMode>
 );
 
